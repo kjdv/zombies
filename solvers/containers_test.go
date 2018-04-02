@@ -2,7 +2,8 @@ package solvers
 
 import (
 	"testing"
-	"zombies/expects"
+
+	"github.com/klaasjacobdevries/zombies/expects"
 )
 
 func TestContainers(t *testing.T) {

@@ -10,8 +10,8 @@ RUN go version
 
 # go is opinionated about the directory structure:
 ENV GOPATH /go
-WORKDIR /go/src/zombies
-COPY . /go/src/zombies
+WORKDIR /go/src/github.com/klaasjacobdevries/zombies
+COPY . /go/src/github.com/klaasjacobdevries/zombies
 
 RUN go build
 RUN go test ./...

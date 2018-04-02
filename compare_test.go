@@ -6,9 +6,10 @@ import (
 	"testing"
 	"text/tabwriter"
 	"time"
-	"zombies/expects"
-	"zombies/solvers"
-	"zombies/world"
+
+	"github.com/klaasjacobdevries/zombies/expects"
+	"github.com/klaasjacobdevries/zombies/solvers"
+	"github.com/klaasjacobdevries/zombies/world"
 )
 
 func TestCompareSolvers(t *testing.T) {

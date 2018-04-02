@@ -2,7 +2,8 @@ package solvers
 
 import (
 	"testing"
-	"zombies/expects"
+
+	"github.com/klaasjacobdevries/zombies/expects"
 )
 
 type testNode int
