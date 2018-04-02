@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"os"
 	"time"
-	"zombies/solvers"
-	"zombies/world"
+
+	"github.com/klaasjacobdevries/zombies/solvers"
+	"github.com/klaasjacobdevries/zombies/world"
 )
 
 type solverFunc func(solvers.Node) (bool, solvers.Solution)

@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"strings"
 	"text/tabwriter"
-	"zombies/solvers"
+
+	"github.com/klaasjacobdevries/zombies/solvers"
 )
 
 type side uint
