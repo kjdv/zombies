@@ -5,8 +5,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/klaasjacobdevries/zombies/solvers"
-	"github.com/klaasjacobdevries/zombies/world"
+	"github.com/kjdv/zombies/solvers"
+	"github.com/kjdv/zombies/world"
 )
 
 type solverFunc func(solvers.Node) (bool, solvers.Solution)

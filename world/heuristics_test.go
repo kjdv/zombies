@@ -3,7 +3,7 @@ package world
 import (
 	"testing"
 
-	"github.com/klaasjacobdevries/zombies/expects"
+	"github.com/kjdv/zombies/expects"
 )
 
 func TestValueHeuristic(t *testing.T) {

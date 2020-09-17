@@ -5,7 +5,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/klaasjacobdevries/zombies/solvers"
+	"github.com/kjdv/zombies/solvers"
 )
 
 type side uint

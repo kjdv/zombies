@@ -3,8 +3,8 @@ package world
 import (
 	"testing"
 
-	"github.com/klaasjacobdevries/zombies/expects"
-	"github.com/klaasjacobdevries/zombies/solvers"
+	"github.com/kjdv/zombies/expects"
+	"github.com/kjdv/zombies/solvers"
 )
 
 func TestNextStates(t *testing.T) {

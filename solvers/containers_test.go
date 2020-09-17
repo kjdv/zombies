@@ -3,7 +3,7 @@ package solvers
 import (
 	"testing"
 
-	"github.com/klaasjacobdevries/zombies/expects"
+	"github.com/kjdv/zombies/expects"
 )
 
 func TestContainers(t *testing.T) {
